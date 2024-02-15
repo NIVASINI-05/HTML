@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.flex-container {
+  display: flex;
+  background-color: purple;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 5px;
+  padding: 5px;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+<h1>COMPONENTS</h1>
+
+<div class="flex-container">
+  <div> 
+    <li>
+    <a [routerLink]="['']">home</a>
+  </li>
+</div>
+  <div>
+    <li>
+      <a [routerLink]="['all-course']">all course</a>
+    </li>
+  </div>
+  <div>
+    <li>
+      <a [routerLink]="['contact']">contact</a>
+    </li>
+  </div> 
+  <div>
+    <li>
+      <a [routerLink]="['blog']">blog</a>
+    </li>
+  </div> 
+
+  <div>
+    <li>
+      <a [routerLink]="['registration']">registration</a>
+    </li>
+  </div> 
+</div>
+
+<router-outlet></router-outlet>
+
+</body>
+</html>
+
+

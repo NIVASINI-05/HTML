@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    text-align: center;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #6c2a4b;
+    background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg");
+    
+h1{
+    color: #6c2a4b;
+}
+flex container{
+    width: 50px;
+}
+li {
+    border: solid;
+    border-color: black;
+    width: 250px;
+    text-align: center;
+    
+  }
+}
+  
